@@ -16,5 +16,5 @@ jobs:
       - name: Log In To AnyDesk
         run: cmd /c show.bat
 
-      - name: Successfully made! You can close the tab now.
-      run: cmd /c loop.bat
+      - name: Time counter
+        run : python3 rdp.py
